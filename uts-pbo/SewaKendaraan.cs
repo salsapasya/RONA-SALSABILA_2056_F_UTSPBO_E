@@ -40,7 +40,7 @@ namespace RONA_SALSABILA_2056_F_UTSPBO_E
         public void tampilInfo()
         {
             Console.WriteLine($"Penyewa : {namaPenyewa} | ID : {idSewa} | Mobil : {tipeMobil} ");
-            Console.WriteLine($"Total Sewa : {hitungTotalSewa}");
+            Console.WriteLine($"Total Sewa : {hitungTotalSewa()}");
         }
 
     }
